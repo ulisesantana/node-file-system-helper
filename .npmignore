@@ -1,2 +1,7 @@
 node_modules/
 src/
+.gitignore
+.prettier
+README.md
+tsconfig.json
+tslint.json
