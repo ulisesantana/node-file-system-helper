@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "baseUrl": "src",
+        "module": "none",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "outDir": "dist",
+        "removeComments": true,
+        "declaration": true,
+        "rootDir": "src",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "target": "es2018"
+    },
+    "include": ["src/*"],
+    "exclude": ["node_modules"]
+}

@@ -1,0 +1,48 @@
+{
+    "defaultSeverity": "warning",
+    "extends": ["tslint:recommended", "tslint-microsoft-contrib/latest"],
+    "rules": {
+        "semicolon": [true, "never"],
+        "missing-jsdoc": false,
+        "no-relative-imports": false,
+        "newline-per-chained-call": false,
+        "non-literal-fs-path": false,
+        "quotemark": [true, "single"],
+        "detect-child-process": false,
+        "completed-docs": false,
+        "no-regex-spaces": false,
+        "type-literal-delimiter": false,
+        "no-reserved-keywords": false,
+        "no-suspicious-comment": false,
+        "no-submodule-imports": false,
+        "no-backbone-get-set-outside-model": false,
+        "no-increment-decrement": false,
+        "no-function-constructor-with-string-args": false,
+        "function-constructor": true,
+        "no-unnecessary-bind": false,
+        "unnecessary-bind": true,
+        "no-unused-expression": [true, "allow-fast-null-checks"],
+        "arrow-parens": [true, "always"],
+        "no-console": [true, "log"],
+        "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"],
+        "trailing-comma": [
+            true,
+            {
+                "multiline": {
+                    "objects": "always",
+                    "arrays": "always",
+                    "functions": "never",
+                    "typeLiterals": "ignore"
+                },
+                "esSpecCompliant": true
+            }
+        ],
+        "strict-boolean-expressions": false,
+        "prefer-type-cast": false,
+        "array-type": [true, "array"],
+        "no-var-requires": false,
+        "insecure-random": false,
+        "prefer-array-literal": [true, { "allow-size-argument": true }]
+    },
+    "rulesDirectory": ["node_modules/tslint-microsoft-contrib"]
+}

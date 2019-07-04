@@ -1,0 +1,36 @@
+{
+    "name": "node-file-system-helper",
+    "productName": "FileSystemHelper",
+    "version": "1.0.0",
+    "description": "Simply a Promise-friendly file/directory helper",
+    "main": "FileSystemHelper.ts",
+    "scripts": {
+        "build": "npx tsc -p .",
+        "prettier": "find ./src -name '*.ts' | xargs prettier --write",
+        "tslint": "npx tslint -p . --fix",
+        "tsc": "npx tsc -p . --noEmit"
+    },
+    "author": "André Augusto Tissot",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrehtissot/node-file-system-helper"
+    },
+    "bugs": {
+        "url": "https://github.com/andrehtissot/node-file-system-helper/issues"
+    },
+    "homepage": "https://github.com/andrehtissot/node-file-system-helper/blob/master/README.md",
+    "engines": {
+        "node": ">=10.15.3"
+    },
+    "devDependencies": {
+        "@types/node": "^12.0.12",
+        "prettier": "^1.18.2",
+        "tslint": "^5.18.0",
+        "tslint-config-prettier": "^1.18.0",
+        "tslint-config-standard": "^8.0.1",
+        "tslint-eslint-rules": "^5.4.0",
+        "tslint-microsoft-contrib": "^6.2.0",
+        "typescript": "^3.5.2"
+    }
+}
