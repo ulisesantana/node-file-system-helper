@@ -6,6 +6,7 @@
     "main": "dist/FileSystemHelper.js",
     "scripts": {
         "build": "npx tsc -p .",
+        "build:docs": "npx typedoc --out docs src",
         "prettier": "find ./src -name '*.ts' | xargs prettier --write",
         "tslint": "npx tslint -p . --fix",
         "tsc": "npx tsc -p . --noEmit"
